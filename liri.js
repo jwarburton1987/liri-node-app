@@ -10,10 +10,10 @@ var spotify = new Spotify(keys.spotify);
 var twitter = new Twitter(keys.twitter);
 
  
-var spotify = new Spotify({
-  id: cc34a045e5ac407baad7b7c40caa7e8a,
-  secret: db369230fff64d9f98db1f5e16b93c01
-});
+// var spotify = new Spotify({
+//   id: ,
+//   secret: 
+// });
  
 spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
   if (err) {
